@@ -4,4 +4,4 @@ def add(x, y):
 
 def subtract(x, y):
     """Subtract 2 NUMBER TOGETHER"""
-    return x + y
+    return x - y
