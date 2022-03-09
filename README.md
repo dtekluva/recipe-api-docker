@@ -46,8 +46,8 @@ You are required to extend a skeleton application to such that it can recreate o
 
 ``` 
 **---------------------**
-Request -> get_all_coins (Get and display all coins)
-Response -> 
+- Request -> get_all_coins (Get and display all coins)
+- Response -> 
 ```yaml
 [{
    "name": "BTC",
@@ -67,14 +67,14 @@ Response ->
 ]
 ``` 
 **---------------------**
-Request -> add_favourite (Add favourite coins to username)
+- Request -> add_favourite (Add favourite coins to username)
 ```yaml
 {
 "username":"way2teiker",
 "favourite":"USDT",
 }
 ```
-Response -> 
+- Response -> 
 ```yaml
 {
    "message": "Added USDT to Favourite successfully",
@@ -84,13 +84,13 @@ Response ->
 }
 ``` 
 **---------------------**
-Request -> view_favourites (Add favourite coins to username)
+- Request -> view_favourites (Add favourite coins to username)
 ```yaml
 {
 "username":"way2teiker"
 }
 ```
-Response -> 
+- Response -> 
 ```yaml
 {"message":"Welcome back way2teiker thanks for using our platform",
 "subscribed_favourites": [
